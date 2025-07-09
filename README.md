@@ -85,7 +85,7 @@ A simple and clean online book store built using **Laravel**, with Blade-based U
 
 ## 💻 Tech Stack
 
-- **Laravel** 12.x
+- **Laravel** 12.19.3
 - **Blade Templates**
 - **MySQL** database
 - **Bootstrap/Tailwind CSS**
