@@ -89,9 +89,6 @@ A simple online book store built with Laravel for the Developer Interview Task.
   ```bash
     composer install
     npm install && npm run dev
-
-3. setup enviromnet
-  ```bash
 cp .env.example .env
 php artisan key:generate
 
