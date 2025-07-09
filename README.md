@@ -60,24 +60,41 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-# 📚 Online Book Store - Laravel Project
+# 📚 Online Book Store — Laravel Project
 
-A simple online book store built with Laravel for the Developer Interview Task.
+A simple and clean online book store built using **Laravel**, with Blade-based UI, MySQL database, and Google Books API integration.
 
 ---
 
 ## 🔧 Features
 
-- View, Search, and Filter Books
-- Book Details Page
-- Admin Login/Dashboard
-- Admin: Add, Edit, Delete Books
-- Manage Price & Availability
-- Google Books API Integration (metadata)
-- Auth with Laravel Breeze
-- Responsive UI (Bootstrap 5)
+### 🧑‍💻 Public Users
+- View all available books
+- Search for books(GOOGLE BOOKS API) 
+- View book details
+
+### 🔐 Admin Panel
+- Login as Admin
+- Add / Edit / Delete books
+- Manage book price and availability
+
+### 🌐 API Integration
+- **Google Books API** used to fetch additional book metadata
 
 ---
+
+## 💻 Tech Stack
+
+- **Laravel** 12.x
+- **Blade Templates**
+- **MySQL** database
+- **Bootstrap/Tailwind CSS**
+- **Google Books API**
+
+---
+
+Email: admin123@gmail.com
+Password: password
 
 ## 🚀 Setup Instructions
 
@@ -89,7 +106,9 @@ A simple online book store built with Laravel for the Developer Interview Task.
   ```bash
     composer install
     npm install && npm run dev
-cp .env.example .env
-php artisan key:generate
+    cp .env.example .env
+    php artisan key:generate
+    php artisan migrate
+    php artisan serve
 
 
