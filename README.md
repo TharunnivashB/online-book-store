@@ -69,6 +69,7 @@ A simple and clean online book store built using **Laravel**, with Blade-based U
 ## 🔧 Features
 
 ### 🧑‍💻 Public Users
+- Login as user or without Login
 - View all available books
 - Search for books(GOOGLE BOOKS API) 
 - View book details
