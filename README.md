@@ -83,5 +83,5 @@ A simple online book store built with Laravel for the Developer Interview Task.
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourname/online-book-store.git
+   git clone https://github.com/TharunnivashB/online-book-store.git
    cd online-book-store
