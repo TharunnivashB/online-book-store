@@ -85,3 +85,14 @@ A simple online book store built with Laravel for the Developer Interview Task.
    ```bash
    git clone https://github.com/TharunnivashB/online-book-store.git
    cd online-book-store
+2. Install dependencies
+  ```bash
+    composer install
+    npm install && npm run dev
+
+3. setup enviromnet
+  ```bash
+cp .env.example .env
+php artisan key:generate
+
+
